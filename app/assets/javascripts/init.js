@@ -30,6 +30,7 @@
     $('section.application-services').serviceViews();
 
     $('#manage_flow section.applications').applicationActions();
+    $('#manage_flow section.applications').composeImportDialog();
 
     $('#manage_flow section.deployment-details').composeExportDialog();
 
