@@ -1,6 +1,7 @@
 @import 'ctl_base_ui/colors';
 @import 'ctl_base_ui/mixins';
 @import 'ctl_base_ui/icons';
+@import 'ctl_base_ui/typography';
 @import 'panamax/extensions';
 
 h1 + header {
@@ -182,6 +183,19 @@ a.button-add-positive {
   }
 }
 
+#app-from-compose-modal {
+  display: none;
+  overflow: auto;
+
+  input[type=file] {
+    position: fixed;
+    top: -1000px;
+  }
+
+  .import-file-name {
+    font-family: $monospace_font_family;
+  }
+}
 
 #gistConfirmationDialog {
   display: none;
